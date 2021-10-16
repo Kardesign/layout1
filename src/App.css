@@ -4,78 +4,147 @@
 }
 
 body{
+  background-color: #2a9d8f; 
 }
 
 .App {
   text-align: center;
   margin: 0px;
-
   padding: 0px;
 }
 
-.Encabezado {
-background-color: rgba(137, 43, 226, 0.284);
-padding: 50px;
-margin: 50px;
-
+.Header {
+background-color: #e9c46a;
+width: 100%;
+padding: 0px;
+margin: 0px;
+/* text-align:left; */
+position:fixed;
 }
+
+
+nav {
+  float:left; 
+  /* display: block; */
+  position:fixed;
+  padding: 20px;
+  background-color: #e9c46a; 
+  width: 100%;
+  height:20px;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  
+}
+
+nav a{
+  /* background-color:  */
+  padding: 10px;
+  margin: 15px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color:rgb(0, 0, 0)
+
+ 
+}
+
+nav a:hover {
+  background-color:#2a9d8f;
+  color: white;
+  opacity: 0.6; 
+}
+
+
+.cajota {
+  margin-top: 100PX;
+  padding: 50px;
+  background-color:#e9c46a;  
+  
+}
+
 .cajita {
+  
+  /* background-color: #72A5C0;  */
+  color: white;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 20px;
+  gap: 50px;
   align-items: center;
   justify-content: center;
-
-
 }
 
 .cajita img{
   width: 500px;
   border-radius: 50px;
-
 }
+
+.transbox   {
+  margin:  100px; 
+  background-color: #ffffff;
+  border: 1px solid black;
+  width: 100%;
+  /* display: flex; */
+  opacity: 0.3; 
+} 
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  }
+
 
 .contenedor-fotos{
   width: 100%;
   height: 100px;
   display: grid;
   gap: 20px;
-  grid-template-columns: 3fr 1fr 1fr 1fr 1fr; 
-  margin-top: 50px;
-
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  margin-top: 80px;
 }
 
 .fotos{
 
   padding: 10px;
-
+  
 }
 
 .foto1{
 
-  background-color: #dfc2bb;
+  background-color: #264653;
+  border-radius: 20px;
+  color:white;
+  opacity: 0.5; 
+ 
 }
 
 .foto2{
 
-  background-color: #CCD7C5;
+  background-color: #264653;
+  border-radius: 20px;
+  color:white;
 }
 
 .foto3{
 
-  background-color: #D65780;
-  color: white;
-  border-radius: 50px;
-  box-shadow: 5px 10px 10px #7e7d7d;
+  background-color: #264653;
+  border-radius: 20px;
+  color:white;
+  
 }
 
 .foto4{
 
-  background-color: #dfc2bb;
+  background-color: #264653;
+  border-radius: 20px;
+  color:white;
 }
 
 .foto5{
 
-  background-color: #dfc2bb;
+  background-color: #264653;
+  border-radius: 20px;
+  color:white;
 }

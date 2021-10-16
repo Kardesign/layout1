@@ -7,34 +7,32 @@ function App() {
   return (
     <div className="App">
 
-      <div className="Encabezado">
-          <h1>Este es un sitio muy especial</h1>
-     
-          <p>Esto es una descripcion de la pagina con un parrafo muy bonito</p>
+      <div className="Header">
+    
+    </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </nav>
 
-      </div>
-      
+     <img src="https://cdn.pixabay.com/photo/2021/08/29/13/11/kingfisher-6583224_1280.jpg" alt="" /> 
 
     <Cajita></Cajita>
 
-      <div className="banner">
-          <h1>Banner</h1>
-          <p>te lo vendo</p>
-      </div>
-
-     
-
+      
       <div className="cajota">
-        <h1>cajota 1</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id debitis sunt aliquid magni! Adipisci dicta, aut vel obcaecati minima eligendi, fugiat perspiciatis voluptates ipsam reiciendis voluptatem magni corrupti, earum ut iure pariatur harum nesciunt dolorum. Tenetur ex ullam, ab labore repellat adipisci ratione. Sint amet minus maxime neque necessitatibus reiciendis.</p>
+        
         <div className="cajita">
-          <img src="https://cdn.pixabay.com/photo/2020/09/26/14/27/sparrow-5604220_1280.jpg" alt="" />
-          <img src="https://cdn.pixabay.com/photo/2020/09/26/14/27/sparrow-5604220_1280.jpg" alt="" />
-          <img src="https://cdn.pixabay.com/photo/2020/09/26/14/27/sparrow-5604220_1280.jpg" alt="" />
-          <img src="https://cdn.pixabay.com/photo/2020/09/26/14/27/sparrow-5604220_1280.jpg" alt="" />
+          <img src="https://cdn.pixabay.com/photo/2021/08/29/13/11/kingfisher-6583224_1280.jpg" alt="" />
+          <img src="https://cdn.pixabay.com/photo/2016/12/13/22/25/bird-1905255_1280.jpg" alt="" />
+          <img src="https://cdn.pixabay.com/photo/2017/03/13/10/25/hummingbird-2139279_1280.jpg" alt="" />
+          <img src="https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_1280.jpg" alt="" />
         </div>
+        
       </div>
-
+      
       <div className="contenedor-fotos">
         <div className="fotos foto1">
           <h3>foto #1</h3>
@@ -54,8 +52,9 @@ function App() {
         </div>
         <div className="fotos foto5">
           <h3>foto #5</h3>
-          <p>concierto punk</p>
+          <p>concierto jazz</p>
         </div>
+        
       </div>
 
     </div>
